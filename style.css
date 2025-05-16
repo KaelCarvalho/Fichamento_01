@@ -1,0 +1,107 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fontes e cores */
+  body {
+    font-family: 'Georgia', serif;
+    background: #c0c0c0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Banner */
+  .banner {
+    background-color: #02162b;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  p {
+    color: var(--text-secondary);
+    text-align: justify;
+    margin-bottom: 20px;
+    /* font-size: 0.5rem; */
+  }
+
+  .logo {
+    width: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .banner span {
+    color: #446de1;
+  }
+  
+  /* Breadcrumb */
+  .breadcrumb {
+    padding: 15px 20px;
+    font-size: 12px;
+    color: #b23b3b;
+    text-transform: uppercase;
+  }
+  /* Estilos para a seção de tópicos */
+.topico {
+    margin: 20px 0;
+    border-left: 4px solid #02162b; /* Borda lateral */
+    padding: 15px;
+    background-color: #c0c0c0;
+    border-radius: 4px;
+}
+
+/* Estilo para o título do tópico */
+.topico h3 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+/* Estilo para o conteúdo */
+.conteudo {
+    padding: 10px;
+    border: 1px solid #eee;
+    margin-top: 10px;
+}
+
+/* Efeito de hover */
+.topico:hover {
+    background-color: #1b5ba067;
+    transition: background-color 0.3s;
+}
+  /* Conteúdo */
+  .content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  .content h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .meta {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .meta span {
+    margin-right: 15px;
+  }
+  
+  /* Parágrafo com destaque */
+  .content p strong {
+    font-weight: bold;
+  }
